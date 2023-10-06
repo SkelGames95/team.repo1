@@ -7,18 +7,33 @@ const team = [
     {name:"Gabriele", surname:"Provenzano", age:22, city:"Palermo", hobby:"Music", favoriteFood:"Pasta", favoriteVideoGame:"Assassins Creed Saga", favoriteFilm:"Star Wars Saga", favoriteBook:"La Scienza Di Interstellar", petName:""}
 ]
 
-function printLOL(favoriteVideoGame, teamArray) {
-    for (let i = 0; i < teamArray.length; i++) {
-      if (teamArray[i].favoriteVideoGame === "LOL" || teamArray[i].favoriteVideoGame === "League Of Legends")  {
-        console.log(`${teamArray[i].surname}'s favorite video game is ${favoriteVideoGame}`);
-      }
+// function printLOL(favoriteVideoGame, teamArray) {
+//     for (let i = 0; i < teamArray.length; i++) {
+//       if (teamArray[i].favoriteVideoGame === "LOL" || teamArray[i].favoriteVideoGame === "League Of Legends")  {
+//         console.log(`${teamArray[i].surname}'s favorite video game is ${favoriteVideoGame}`);
+//       }
+//     }
+//   return;
+// }
+
+//   console.log(`No one likes League of Legends. LOL`);
+
+//   let names = ["Polenta Marco" , "Crimi Giuseppe" , "Weng Alessandro" , "Vanacore Ugo Davide" , "Puricella Federico" , "Provenzano Gabriele"];
+// let sortedNames = names.sort();
+// console.log(sortedNames);
+// return;
+
+function printPet(teamArray1) {
+  for (let j = 0; j < teamArray1.length; j++) {
+    if (teamArray1[j].petName !== "") { //if teamarray of j is a different of empty string petname you...
+      console.log(teamArray1[j].name,teamArray1[j].surname,"have a pet called:",teamArray1[j].petName);
     }
-  return;
+  }
+
 }
+      printPet(team);
 
-  console.log(`No one likes League of Legends. LOL`);
 
-  let names = ["Polenta Marco" , "Crimi Giuseppe" , "Weng Alessandro" , "Vanacore Ugo Davide" , "Puricella Federico" , "Provenzano Gabriele"];
-let sortedNames = names.sort();
-console.log(sortedNames);
-return;
+
+
+
