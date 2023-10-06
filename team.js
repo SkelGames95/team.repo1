@@ -15,8 +15,8 @@ function printLOL(favoriteVideoGame, teamArray) {
     }
   return;
 }
-
   console.log(`No one likes League of Legends. LOL`);
+
 
   let names = ["Polenta Marco" , "Crimi Giuseppe" , "Weng Alessandro" , "Vanacore Ugo Davide" , "Puricella Federico" , "Provenzano Gabriele"];
 let sortedNames = names.sort();
