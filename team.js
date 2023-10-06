@@ -4,5 +4,5 @@ let team = [
     {name:"Alessandro", surname:"Weng", age:23, city:"Naples", hobby:"Butterfly Knife", favoriteFood:"Pizza", favoriteVideoGame:"Shooters", favoriteFilm:"", favoriteBook:"", petName:"Kiki"},
     {name:"Ugo Davide", surname:"Vanacore", age:23, city:"Milano", hobby:"Reading", favoriteFood:"Pasta", favoriteVideoGame:"DragonBall", favoriteFilm:"V for Vendetta", favoriteBook:"Due candele per il diavolo", petName:"Ade"},
     {name:"Federico", surname:"Puricella", age:25, city:"Torino", hobby:"Football", favoriteFood:"Pizza", favoriteVideoGame:"CallOfDuty", favoriteFilm:"", favoriteBook:"", petName:""},
-    {name:"Gabriele", surname:"Provenzano", age:22, city:"Palermo", hobby:"Music", favoriteFood:"Pasta", favoriteVideoGame:"AssassinsCreedSaga", favoriteFilm:"StarWarsSaga", favoriteBook:"LaScienzaDiInterstellar", petName:""},
+    {name:"Gabriele", surname:"Provenzano", age:22, city:"Palermo", hobby:"Music", favoriteFood:"Pasta", favoriteVideoGame:"Assassins Creed Saga", favoriteFilm:"Star Wars Saga", favoriteBook:"La Scienza Di Interstellar", petName:""}
 ]
