@@ -7,3 +7,13 @@ const team = [
     {name:"Gabriele", surname:"Provenzano", age:22, city:"Palermo", hobby:"Music", favoriteFood:"Pasta", favoriteVideoGame:"Assassins Creed Saga", favoriteFilm:"Star Wars Saga", favoriteBook:"La Scienza Di Interstellar", petName:""}
 ]
 
+function printLOL(favoriteVideoGame, teamArray) {
+    for (let i = 0; i < teamArray.length; i++) {
+      if (teamArray[i].favoriteVideoGame === "LOL" || teamArray[i].favoriteVideoGame === "League Of Legends")  {
+        console.log(`${teamArray[i].surname}'s favorite video game is ${favoriteVideoGame}`);
+      }
+    }
+  return;
+}
+
+  console.log(`No one likes League of Legends. LOL`);
