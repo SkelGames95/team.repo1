@@ -1,4 +1,4 @@
-let team = [
+const team = [
     {name:"Marco", surname:"Polenta", age:28, city:"San Severino Marche", hobby:"Videogames", favoriteFood:"Meat", favoriteVideoGame:"Cyberpunk2077", favoriteFilm:"Inception", favoriteBook:"Neuromancer", petName:"Kurama"},
     {name:"Giuseppe", surname:"Crimi", age:23, city:"Castelvetrano", hobby:"Videogames", favoriteFood:"Ravioli", favoriteVideoGame:"Point Blank", favoriteFilm:"Apocalypse Now", favoriteBook:"Dictionary", petName:"Sharon"},
     {name:"Alessandro", surname:"Weng", age:23, city:"Naples", hobby:"Butterfly Knife", favoriteFood:"Pizza", favoriteVideoGame:"Shooters", favoriteFilm:"", favoriteBook:"", petName:"Kiki"},
@@ -6,3 +6,4 @@ let team = [
     {name:"Federico", surname:"Puricella", age:25, city:"Torino", hobby:"Football", favoriteFood:"Pizza", favoriteVideoGame:"CallOfDuty", favoriteFilm:"", favoriteBook:"", petName:""},
     {name:"Gabriele", surname:"Provenzano", age:22, city:"Palermo", hobby:"Music", favoriteFood:"Pasta", favoriteVideoGame:"Assassins Creed Saga", favoriteFilm:"Star Wars Saga", favoriteBook:"La Scienza Di Interstellar", petName:""}
 ]
+
