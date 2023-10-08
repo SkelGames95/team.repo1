@@ -39,4 +39,11 @@ printPet(team);
 
 console.log("------------------------------------------------");
 
+function printTeamInAgeOrder(team) {
+    team.sort((a, b) => a.age - b.age);
+    for (let member of team) {
+    console.log(member.name);
+    }
+}
 
+printTeamInAgeOrder(team);
