@@ -25,4 +25,18 @@ if (players(team).length > 0){
     console.log("No one likes to play LOL");
 }
 
-console.log("--------------------------");
+console.log("------------------------------------------------");
+
+function printPet(teamArray1) {
+    for (let j = 0; j < teamArray1.length; j++) {
+      if (teamArray1[j].petName !== "") { //if teamarray of j is a different of empty string petname you...
+        console.log(teamArray1[j].name,teamArray1[j].surname,"have a pet called:",teamArray1[j].petName);
+      }
+    }
+}
+
+printPet(team);
+
+console.log("------------------------------------------------");
+
+
