@@ -47,3 +47,5 @@ function printTeamInAgeOrder(team) {
 }
 
 printTeamInAgeOrder(team);
+
+console.log("------------------------------------------------");
