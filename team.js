@@ -49,3 +49,24 @@ function printTeamInAgeOrder(team) {
 printTeamInAgeOrder(team);
 
 console.log("------------------------------------------------");
+
+function hasSameName(names) {
+    let nameCount = {};
+  
+    for (let sameName of names) {
+      let { name } = sameName;
+      if (nameCount[name]) {
+        nameCount[name]++;
+      } else {
+        nameCount[name] = 1;
+      }
+    }
+    for (let name in nameCount) {
+      if (nameCount[name] > 1) {
+        return console.log("There are people with the same name!");
+      }
+    }
+    return console.log("There are no people with the same name!");
+  }
+  
+  hasSameName(team);
