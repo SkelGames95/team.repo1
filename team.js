@@ -70,3 +70,5 @@ function hasSameName(names) {
   }
   
   hasSameName(team);
+
+console.log("------------------------------------------------");
