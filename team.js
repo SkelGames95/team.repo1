@@ -73,6 +73,12 @@ function hasSameName(names) {
 
 console.log("------------------------------------------------");
 
+var a=[ "Provenzano Gabriele", "Polenta Marco", "Crimi Giuseppe", "Weng Alessandro", "Vanacore Ugo Davide", "Puricella Federico"];
+var m = a.sort();
+console.log(m);
+
+console.log("------------------------------------------------");
+
 function middleAge(array) {     
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
@@ -82,4 +88,3 @@ function middleAge(array) {
 
 middleAge(team);
 
-console.log("-----------------------------------------------");
