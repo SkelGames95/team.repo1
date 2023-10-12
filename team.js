@@ -72,3 +72,8 @@ function hasSameName(names) {
   hasSameName(team);
 
 console.log("------------------------------------------------");
+
+var a=[ "Provenzano Gabriele", "Polenta Marco", "Crimi Giuseppe", "Weng Alessandro", "Vanacore Ugo Davide", "Puricella Federico"];
+var m = a.sort();
+console.log(m);
+
